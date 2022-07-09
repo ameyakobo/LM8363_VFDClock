@@ -1,0 +1,50 @@
+﻿    C1,0.01u,ceramic
+    C2,1000u/25,1000uF Aluminum electrolytic capacitor or 820uF Polymer capacitor
+    C3,1000u/25,1000uF Aluminum electrolytic capacitor or 820uF Polymer capacitor
+    C4,0.1u,ceramic
+    C5,--,(omit)
+    C6,0.1u,ceramic
+    C7,0.1uF,ceramic
+    C8,--,(omit)
+    D1,TS260S,bridge diode (Panjit)
+    D2,LED,High brightness LED
+    D3,LED,High brightness LED
+    J1,AC IN,CLIFF FC681465P etc. (e.g. 4UCON 18742)
+    J2,EXT_CLK,JST XH 2pin (optional)
+    J3,3.3V,JST XH 2pin (optional)
+    JP1,50Hz,Short when the power supply is 50Hz
+    JP2,12/24H,Select 12 hours or 24 hours
+    JP3,12/24H,Select 12 hours or 24 hours
+    JP4,24H,Short in case of 24 hours
+    JP5,24H,Short in case of 24 hours
+    JP6,AC_CLK,Short circuit in case of power synchronization
+    JP7,PM_LED/24H,Select PM display LED and 24 hours
+    JP8,AM_LED,Short in case of 12 hours and AM display LED
+    R1,120 ohm,1/4W (If you use LD8035E)
+    R2,120 ohm,1/4W (If you use LD8035E)
+    R3,120 ohm/68 ohm,"120 ohm 1/4W (If you use LD8035E), 68 ohm 1/4W (If you use 2-BT-06)"
+    R4,68 ohm,1/4W (If you use 2-BT-06)
+    R5,120 ohm/68 ohm,"120 ohm 1/4W (If you use LD8035E), 68 ohm 1/4W (If you use 2-BT-06)"
+    R6,68 ohm,1/4W (If you use 2-BT-06)
+    R7,100K ohm,SMD
+    R8,1K ohm,SMD
+    R9,10K ohm,SMD
+    R10,--,(For brightness adjustment)
+    R11,--,(For brightness adjustment)
+    R12,220K,"If D2 is not a high brightness LED, 10K"
+    R13,220K,"If D3 is not a high brightness LED, 10K"
+    R14,--,(For EXT Clock pullup)
+    RV1,5K,Bourns 3339P
+    SW1,秒表示,Display seconds when ON
+    SW2,時,"Adjust the ""HOUR"""
+    SW3,月日表示,Display the month and day when ON
+    SW4,分,"Adjust the ""SECOND"""
+    U1,LD8035E,If you use LD8035E (NEC)
+    U2,LD8035E,If you use LD8035E (NEC)
+    U3,LD8035E,If you use LD8035E (NEC)
+    U4,LD8035E,If you use LD8035E (NEC)
+    U5,2-BT-06,If you use 2-BT-06 (Futaba)
+    U6,2-BT-06,If you use 2-BT-06 (Futaba)
+    U7,LM8363,Type DH or N or S (Type D cannot be used)
+    U8,NJM2389/NJM2397 (JRC),JRC
+    U9,BP5293-33 (ROHM),"LM2940T-3.3 can also be used, but a heat sink is required"
